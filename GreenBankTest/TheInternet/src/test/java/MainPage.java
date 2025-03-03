@@ -20,10 +20,12 @@ public class MainPage {
   public void clickSearchCheckbox() {
     searchCheckbox.click();
   }
-  public void clickSearchDropdown(){
+
+  public void clickSearchDropdown() {
     searchDropdown.click();
   }
-  public void clickSearchDragAndDrop(){
+
+  public void clickSearchDragAndDrop() {
     searchDragAndDrop.click();
   }
 

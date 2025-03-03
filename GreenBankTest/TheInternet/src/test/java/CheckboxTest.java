@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-public class TheInternetTest extends BaseTest {
+public class CheckboxTest extends BaseTest {
 
   private final static String BASE_URL = "https://the-internet.herokuapp.com/";
 

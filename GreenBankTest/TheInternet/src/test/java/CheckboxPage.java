@@ -4,9 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.codeborne.selenide.SelenideElement;
 
-
 /*
-Страница с чекбоксами
+ *Страница с чекбоксами
  */
 public class CheckboxPage {
 
@@ -24,6 +23,7 @@ public class CheckboxPage {
   public void checkboxIsChecked1() {
     assertTrue(searchCheckbox1.isSelected(), "Чекбокс должен быть выбран");
   }
+
   public void checkboxNotChecked1() {
     assertFalse(searchCheckbox1.isSelected(), "Чекбокс должен быть снят");
   }
@@ -32,6 +32,7 @@ public class CheckboxPage {
   public void checkboxIsChecked2() {
     assertTrue(searchCheckbox2.isSelected(), "Чекбокс должен быть выбран");
   }
+
   public void checkboxNotChecked2() {
     assertFalse(searchCheckbox2.isSelected(), "Чекбокс должен быть снят");
   }

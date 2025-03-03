@@ -5,9 +5,11 @@ import static java.lang.System.*;
 
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.interactions.Actions;
+/*
+ *Страница с Драг энд Дропс
+ */
 
-
-public class CheckDragAndDrops {
+public class DragAndDropsPage {
 
   public final SelenideElement searchA = $x("//*[@class='column'][1]");
   public final SelenideElement searchB = $x("//*[@class='column'][2]");

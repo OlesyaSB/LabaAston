@@ -1,7 +1,6 @@
-import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.Test;
 
-public class CheckDropdownTest extends BaseTest {
+public class DropdownTest extends BaseTest {
 
   private final static String BASE_URL = "https://the-internet.herokuapp.com/";
 
@@ -9,7 +8,7 @@ public class CheckDropdownTest extends BaseTest {
   public void checkElement() {
     MainPage mainPage = new MainPage(BASE_URL);
     mainPage.clickSearchDropdown();
-    CheckDropDown checkDropDown = new CheckDropDown();
+    DropdownPage checkDropDown = new DropdownPage();
     checkDropDown.clickDropdown();
     checkDropDown.clickOption1();
     checkDropDown.clickOption2();
